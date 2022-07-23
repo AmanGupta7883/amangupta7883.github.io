@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
+}
+
+section{
+    padding: 2rem 0px;
+}
+
+.img-fluid{
+    margin: auto;
+    margin-left: 5%;
+}
+.headNav{
+    position: fixed;
+    background-color: tomato;
+    width: 100%;
+    height: 70px;
+}
+#navLogo{
+    width: 16rem;
+    height: auto;
+}
+.sideNav{
+    text-align: center;
+}
+.headCont{
+    width: 100%;
+    height: 100vh;
+    background-color: #e1f3ff;
+}
+.mainHeadCont{
+    padding: 0rem 0rem;
+}
+.mainHeadCon2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 9rem;
+    color: #302d2d;
+    text-align: justify;
+    line-height: 30px;
+    background: tomato;
+}
+.navContent, .navContent a{
+    text-decoration: none;
+    list-style: none;
+    padding: 7px 13px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    border-radius: 13px;
+    font-size: 1.5rem;
+}
+.ulSideNav{
+    display: flex;
+    align-items: center;
+}
+li a .enrollBtn{
+text-decoration: none;
+}
+.navContent:hover{
+    background-color: rgb(255, 175, 175);
+    color: black;
+}
+.mainQt{
+    text-align: start;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 6rem;
+    margin: auto;
+    margin-top: 1.6em;
+    width: 50%;
+}
+.txt2{
+    font-size: 3rem;
+}
+button.btn.btn-default {
+    background: red;
+    color: white;
+    padding: 13px 16px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 2px 1px black;
+    outline: none;
+    border: none;
+}
+.aboutsec, .certsec{
+  font-weight: 600;
+  text-align: justify;
+  width: 75%;
+}
+.ilab{
+    /* background: tomato; */
+    border-radius: 50% 14% 30% 14%;
+    width: 20%;
+    height: 20%;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.mainDashboard{
+  background: #e1f3ff;
+}
+.mainCertificationSec, .mainTrainSec{
+    align-items: center;
+}
+.tInt{
+    background: tomato;
+    color: white;
+    font-weight: 700 ;
+    text-align: center;
+    margin: 6px;
+    padding: 13px 8px;
+    border-radius: 8px;
+    width: 20%;
+}
+.builtCard{
+    justify-content: space-between;
+}
+.footer{
+    background-color: tomato;
+    padding: 3px;
+    font-weight:800 ;
+    color: white;
+    text-align: center;
+}
+.txt1{
+font-size: 9rem;
+}
+.txt3{
+font-size: 2.8rem;
+}
+.hamIcon{
+    display: none;
+}
+@media only screen and (max-width: 1072px){
+    .mainHeadCont{
+       flex-direction: column-reverse;
+    }
+    .mainAboutSec{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .sideNav{
+        display: none;
+    }
+    .headNav{
+        justify-content: center;
+    }
+    .mainQt{
+        line-height: 5rem;
+        margin-top: 0;
+    }
+   .txt1{
+    font-size: 7rem;
+   }
+   .txt2{
+    font-size: 2.5rem; 
+   }
+}
+@media only screen and (max-width: 857px){
+    .mainHeadCont{
+        padding-top: 16rem;
+    }
+    .mainAbout{
+        padding: 2rem 0rem;
+    }
+    nav.navbar.headNav.fixed-top.py-8.px-4.d-flex.align-item-center {
+        justify-content: center;
+        height: 6rem;
+    }
+    .head{
+        height: 40px;
+    }
+    .mainQt{
+        line-height: 52px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .aboutsec{
+        width: 100%;
+        text-align: center;
+    }
+    .hamIcon{
+        font-size: 900;
+        color: white;
+        padding: 2px;
+    }
+    .mainTrainSec{
+        flex-direction: column-reverse;
+    }
+    .builtCard{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .tInt{
+       width: 80%; 
+       font-size: 2rem;
+    }
+    .txt1{
+        font-size: 6rem;
+       }
+    .txt2{
+     font-size: 33px;
+    }
+    .txt3{
+        font-size: 1.8rem;
+    }
+    .ilab{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .mainHeadCont{
+        padding-top: 1rem;
+    }
+    .mainQt{
+      text-align: center;
+    }
+    .mainCertificationSec{
+      justify-content: center;
+      align-items: center;
+    }
+    .homeIll{
+        margin: auto;
+    }
+    .mainQt.d-block {
+        line-height: 4rem;
+    }
+}
