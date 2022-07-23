@@ -137,6 +137,9 @@ font-size: 2.6rem;
 .hamIcon{
     display: none;
 }
+.homeIll{
+    
+}
 @media only screen and (max-width: 1072px){
     .mainHeadCont{
        flex-direction: column-reverse;
@@ -180,8 +183,8 @@ font-size: 2.6rem;
     .mainQt{
         line-height: 52px;
         width: 100%;
-        margin: auto;
-        margin-top:0;
+        margin: 0;
+        padding-bottom: 1rem;
         text-align: center;
     }
     .aboutsec{
