@@ -240,6 +240,7 @@ font-size: 2.6rem;
     .homeIll{
         margin: auto;
         margin-bottom:0;
+        height:100%;
     }
     .mainQt.d-block {
         line-height: 4rem;
