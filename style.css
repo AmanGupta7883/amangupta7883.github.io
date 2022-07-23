@@ -139,8 +139,7 @@ font-size: 2.6rem;
 }
 .homeIll{
     width:50%;
-    height:60%;
-        
+    height:50%;      
 }
 @media only screen and (max-width: 1072px){
     .mainHeadCont{
@@ -222,6 +221,10 @@ font-size: 2.6rem;
     .ilab{
         width: 70%;
     }
+    .homeIll{
+    width:50%;
+    height:50%;      
+}
 }
 @media only screen and (max-width: 576px){
     .mainHeadCont{
