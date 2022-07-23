@@ -181,6 +181,7 @@ font-size: 2.8rem;
         line-height: 52px;
         width: 100%;
         margin: auto;
+        margin-top:0;
         text-align: center;
     }
     .aboutsec{
@@ -230,6 +231,7 @@ font-size: 2.8rem;
     }
     .homeIll{
         margin: auto;
+        margin-bottom:0;
     }
     .mainQt.d-block {
         line-height: 4rem;
