@@ -247,5 +247,8 @@ font-size: 2.6rem;
     }
     .img-fluid {
     margin-left: 0%;
-}
+    }
+    .headCont {
+    height: 100%;
+    padding: 12rem 0rem;
 }
