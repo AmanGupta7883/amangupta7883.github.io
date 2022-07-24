@@ -85,6 +85,8 @@ button.btn.btn-default {
     box-shadow: 0px 0px 2px 1px black;
     outline: none;
     border: none;
+    margin: auto;
+    margin-top: 1rem;
 }
 .aboutsec, .certsec{
   font-weight: 600;
@@ -248,5 +250,8 @@ font-size: 2.6rem;
     }
     .img-fluid {
     margin-left: 0%;
+    }
+    button.btn.btn-default {
+    margin-top: 1rem;
     }
 }
