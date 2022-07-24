@@ -245,4 +245,7 @@ font-size: 2.6rem;
     .mainQt.d-block {
         line-height: 4rem;
     }
+    .img-fluid {
+    margin-left: 0%;
+}
 }
