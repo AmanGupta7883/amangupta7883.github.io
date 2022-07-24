@@ -240,6 +240,7 @@ font-size: 2.6rem;
     .homeIll{
         margin: auto;
         margin-bottom:0;
+        margin-top:0;
         height:100%;
     }
     .mainQt.d-block {
@@ -248,7 +249,4 @@ font-size: 2.6rem;
     .img-fluid {
     margin-left: 0%;
     }
-    .headCont {
-    height: 100%;
-    padding: 12rem 0rem;
 }
