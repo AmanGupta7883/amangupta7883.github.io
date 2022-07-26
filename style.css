@@ -399,8 +399,8 @@ label {
     }
 
     .chatbox {
-        width: 100vw;
-        height: 70vh;
+        width: 70vw;
+        height: 60vh;
     }
     .chtitle {
         font-size: 1.3rem;
