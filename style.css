@@ -1,40 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all 0.8s ease;
 }
 
-section{
+section {
     padding: 2rem 0px;
 }
 
-.img-fluid{
+.img-fluid {
     margin: auto;
     margin-left: 5%;
 }
-.headNav{
+
+.headNav {
     position: fixed;
     background-color: tomato;
     width: 100%;
     height: 100px;
 }
-#navLogo{
+
+#navLogo {
     width: 16rem;
     height: auto;
 }
-.sideNav{
+
+.sideNav {
     text-align: center;
 }
-.headCont{
+
+.headCont {
     width: 100%;
     height: 100vh;
     background-color: #e1f3ff;
 }
-.mainHeadCont{
+
+.mainHeadCont {
     padding: 0rem 0rem;
 }
-.mainHeadCon2{
+
+.mainHeadCon2 {
     font-size: 1.3rem;
     font-weight: 800;
     margin-top: 9rem;
@@ -43,7 +49,9 @@ section{
     line-height: 30px;
     background: tomato;
 }
-.navContent, .navContent a{
+
+.navContent,
+.navContent a {
     text-decoration: none;
     list-style: none;
     padding: 7px 13px;
@@ -53,18 +61,22 @@ section{
     border-radius: 13px;
     font-size: 1.5rem;
 }
-.ulSideNav{
+
+.ulSideNav {
     display: flex;
     align-items: center;
 }
-li a .enrollBtn{
-text-decoration: none;
+
+li a .enrollBtn {
+    text-decoration: none;
 }
-.navContent:hover{
+
+.navContent:hover {
     background-color: rgb(255, 175, 175);
     color: black;
 }
-.mainQt{
+
+.mainQt {
     text-align: start;
     font-weight: 800;
     font-size: 4rem;
@@ -73,9 +85,11 @@ text-decoration: none;
     margin-top: 1.6em;
     width: 50%;
 }
-.txt2{
+
+.txt2 {
     font-size: 3rem;
 }
+
 button.btn.btn-default {
     background: red;
     color: white;
@@ -85,65 +99,74 @@ button.btn.btn-default {
     box-shadow: 0px 0px 2px 1px black;
     outline: none;
     border: none;
-    margin: auto;
-    margin-top: 1rem;
 }
-.aboutsec, .certsec{
-  font-weight: 600;
-  text-align: justify;
-  width: 75%;
+
+.aboutsec,
+.certsec {
+    font-weight: 600;
+    text-align: justify;
+    width: 75%;
 }
-.ilab{
+
+.ilab {
     /* background: tomato; */
     border-radius: 50% 14% 30% 14%;
     width: 20%;
     height: 20%;
 }
-.title{
+
+.title {
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
 }
-.mainDashboard{
-  background: #e1f3ff;
+
+.mainDashboard,
+.enqFm {
+    background: #e1f3ff;
 }
-.mainCertificationSec, .mainTrainSec{
+
+.mainCertificationSec,
+.mainTrainSec {
     align-items: center;
 }
-.tInt{
+
+.tInt {
     background: tomato;
     color: white;
-    font-weight: 700 ;
+    font-weight: 700;
     text-align: center;
     margin: 6px;
     padding: 13px 8px;
     border-radius: 8px;
     width: 20%;
 }
-.builtCard{
+
+.builtCard {
     justify-content: space-between;
 }
-.footer{
+
+.footer {
     background-color: tomato;
     padding: 3px;
-    font-weight:800 ;
+    font-weight: 800;
     color: white;
     text-align: center;
 }
-.txt1{
-font-size: 9rem;
+
+.txt1 {
+    font-size: 9rem;
 }
-.txt3{
-font-size: 2.6rem;
+
+.txt3 {
+    font-size: 2.8rem;
 }
-.hamIcon{
+
+.hamIcon {
     display: none;
 }
-.homeIll{
-    width:50%;
-    height:50%;      
-}
-.chat{
+
+.chat {
     background-color: tomato;
     border-radius: 50%;
     position: fixed;
@@ -151,122 +174,245 @@ font-size: 2.6rem;
     bottom: 0;
     right: 0;
     z-index: 9999;
-    margin-right: 1rem ;
-    margin-bottom: 1rem ;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     padding: 10px;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
     box-shadow: 0px 0px 6px 1px black;
 }
-@media only screen and (max-width: 1072px){
-    .mainHeadCont{
-       flex-direction: column-reverse;
+
+.chatbox {
+    position: fixed;
+    display: none;
+    width: 30vw;
+    height: 70vh;
+    bottom: 0;
+    right: 0;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 4px 0px black;
+    background-color: #f3fffe;
+    z-index: 9999;
+    flex-direction: column;
+    border-radius: 8px 8px 0px 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.albox {
+    padding: 1rem;
+    text-align: justify;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.chathead {
+    background-color: tomato;
+    display: flex;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.chtitle {
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.clsicn {
+    width: 2rem;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.chatQb {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ques {
+    margin: 13px 0px;
+    background-color: #ffd0d0;
+    padding: 8px 6px;
+    border-radius: 13px;
+}
+
+.qn {
+    width: 100%;
+    height: 160px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.chatAns {
+    display: none;
+    font-weight: 400;
+    background-color: greenyellow;
+    height: 6rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 70vh;
+}
+
+label {
+    display: inline-block;
+    color: #787878;
+    font-style: italic;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 1072px) {
+    .mainHeadCont {
+        flex-direction: column-reverse;
     }
-    .mainAboutSec{
+
+    .mainAboutSec {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .sideNav{
+
+    .sideNav {
         display: none;
     }
-    .headNav{
+
+    .headNav {
         justify-content: center;
     }
-    .mainQt{
+
+    .mainQt {
         line-height: 5rem;
         margin-top: 0;
     }
-   .txt1{
-    font-size: 7rem;
-   }
-   .txt2{
-    font-size: 2.5rem; 
-   }
+
+    .txt1 {
+        font-size: 7rem;
+    }
+
+    .txt2 {
+        font-size: 2.5rem;
+    }
+    .chatbox{
+        width: 50vw;
+    }
 }
-@media only screen and (max-width: 857px){
-    .mainHeadCont{
+
+@media only screen and (max-width: 857px) {
+    .mainHeadCont {
         padding-top: 16rem;
     }
-    .mainAbout{
+
+    .mainAbout {
         padding: 2rem 0rem;
     }
+
     nav.navbar.headNav.fixed-top.py-8.px-4.d-flex.align-item-center {
         justify-content: center;
         height: 6rem;
     }
-    .head{
+
+    .head {
         height: 40px;
     }
-    .mainQt{
+
+    .mainQt {
         line-height: 52px;
         width: 100%;
-        margin: 0;
-        padding-bottom: 1rem;
+        margin: auto;
         text-align: center;
     }
-    .aboutsec{
+
+    .aboutsec {
         width: 100%;
         text-align: center;
     }
-    .hamIcon{
+
+    .hamIcon {
         font-size: 900;
         color: white;
         padding: 2px;
     }
-    .mainTrainSec{
+
+    .mainTrainSec {
         flex-direction: column-reverse;
     }
-    .builtCard{
+
+    .builtCard {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
-    .tInt{
-       width: 80%; 
-       font-size: 2rem;
+
+    .tInt {
+        width: 80%;
+        font-size: 2rem;
     }
-    .txt1{
+
+    .txt1 {
         font-size: 6rem;
-       }
-    .txt2{
-     font-size: 33px;
     }
-    .txt3{
+
+    .txt2 {
+        font-size: 33px;
+    }
+
+    .txt3 {
         font-size: 1.8rem;
     }
-    .ilab{
-        width: 100%;
+
+    .ilab {
+        width: 70%;
     }
-    .homeIll{
-    width:100%;
-    height:50%;      
+    .chatbox{
+        width: 50vw;
+    }
 }
-}
-@media only screen and (max-width: 576px){
-    .mainHeadCont{
+
+@media only screen and (max-width: 576px) {
+    .mainHeadCont {
         padding-top: 1rem;
     }
-    .mainQt{
-      text-align: center;
+
+    .mainQt {
+        text-align: center;
     }
-    .mainCertificationSec{
-      justify-content: center;
-      align-items: center;
+
+    .mainCertificationSec {
+        justify-content: center;
+        align-items: center;
     }
-    .homeIll{
+
+    .homeIll {
         margin: auto;
-        margin-bottom:0;
-        margin-top:0;
-        height:100%;
     }
+
     .mainQt.d-block {
         line-height: 4rem;
     }
-    .img-fluid {
-    margin-left: 0%;
+
+    .chatbox {
+        width: 100vw;
+        height: 100vh;
     }
-    button.btn.btn-default {
-    margin-top: 1rem;
+    .chtitle {
+        font-size: 1.3rem;
+    }
+
+    .clsicn {
+        width: 1.6rem;
+    }
+
+    .albox {
+        padding: 0.2rem;
+        text-align: center;
+        font-size: 13px;
     }
 }
