@@ -406,7 +406,9 @@ label {
         line-height: 4rem;
         margin-top:0px;
     }
-
+    button.btn.btn-default{
+        margin-top: 2rem;
+    }
     .chatbox {
         width: 70vw;
         height: 60vh;
