@@ -394,10 +394,13 @@ label {
 
     .homeIll {
         margin: auto;
+        width:100%;
+        margin-bottom:0;
     }
 
     .mainQt.d-block {
         line-height: 4rem;
+        margin-top:0px;
     }
 
     .chatbox {
