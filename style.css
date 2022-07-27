@@ -381,6 +381,9 @@ label {
     .mainHeadCont {
         padding-top: 1rem;
     }
+    .headCont {
+    height: 90vh;
+}
     .logo{
         margin:auto;
      }
