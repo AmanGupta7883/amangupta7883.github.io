@@ -380,7 +380,9 @@ label {
     .mainHeadCont {
         padding-top: 1rem;
     }
-
+    .logo{
+        margin:auto;
+     }
     .mainQt {
         text-align: center;
     }
