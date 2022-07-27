@@ -111,8 +111,8 @@ button.btn.btn-default {
 .ilab {
     /* background: tomato; */
     border-radius: 50% 14% 30% 14%;
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    margin-left: 0px;
 }
 
 .title {
